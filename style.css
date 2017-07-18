@@ -1,0 +1,37 @@
+.content{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+.links{
+  width: 100%;
+  text-align: center;
+}
+body{
+  background-color: #1B2B4F;
+	margin: 0;
+}
+h1{
+  font-family: 'Nunito', sans-serif;
+  font-size: 45px;
+  color: #F0167E;
+  vertical-align: middle;
+}
+img{
+  margin: 10px;
+  width: 30px;
+  height: auto;
+}
+.giphy{
+  width: 300px;
+  transform: translateY(-5%);
+}
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
