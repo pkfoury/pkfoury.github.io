@@ -10,13 +10,14 @@
   text-align: center;
 }
 body{
-  background-color: #1B2B4F;
+  background-color: #2E0927;
 	margin: 0;
 }
 h1{
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 45px;
-  color: #F0167E;
+  font-weight: bold;
+  color: #FF2D00;
   vertical-align: middle;
 }
 img{
