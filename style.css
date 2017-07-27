@@ -1,4 +1,16 @@
+@font-face {
+  font-family: "Circular"; src: url(circular.otf);
+}
+html{
+  height: 100%;
+}
+body{
+  background-image: linear-gradient(to bottom, #2e0927, #750035 75%);
+  background-repeat: no-repeat;
+  margin: 0;
+}
 .content{
+  margin: 0;
   position: absolute;
   top: 50%;
   width: 100%;
@@ -9,15 +21,26 @@
   width: 100%;
   text-align: center;
 }
-body{
-  background-color: #2E0927;
-	margin: 0;
-}
+
 h1{
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Circular';
   font-size: 45px;
-  font-weight: bold;
+  font-weight: normal;
   color: #FF2D00;
+  vertical-align: middle;
+}
+h2{
+  font-family: 'Circular';
+  font-size: 20px;
+  font-weight: lighter;
+  transform: translateY(-35%);
+  color: #FF8C00;
+  vertical-align: middle;
+}
+h3{
+  font-size: 80px;
+  margin: 0px;
+  transform: translateY(-10%);
   vertical-align: middle;
 }
 img{
