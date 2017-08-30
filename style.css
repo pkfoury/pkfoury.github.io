@@ -4,11 +4,15 @@
 html{
   height: 100%;
 }
+
+/*background*/
 body{
-  background-image: linear-gradient(to bottom, #2e0927, #750035 75%);
+  background-image: linear-gradient(to bottom, #2e0927, #750035);
   background-repeat: no-repeat;
   margin: 0;
 }
+
+/*big box*/
 .content{
   margin: 0;
   position: absolute;
@@ -43,14 +47,14 @@ h3{
   transform: translateY(-10%);
   vertical-align: middle;
 }
+
 img{
   margin: 10px;
   width: 30px;
   height: auto;
 }
-.giphy{
-  width: 300px;
-  transform: translateY(-5%);
+.hut{
+  width: 250px;
 }
 
 *{
