@@ -1,13 +1,10 @@
-@font-face {
-  font-family: "Circular"; src: url(circular.otf);
-}
 html{
   height: 100%;
 }
 
 /*background*/
 body{
-  background-image: linear-gradient(to bottom, #2e0927, #750035);
+  /*background-image: linear-gradient(to bottom, #2e0927, #750035);*/
   background-repeat: no-repeat;
   margin: 0;
 }
@@ -21,31 +18,30 @@ body{
   text-align: center;
   transform: translateY(-50%);
 }
-.links{
-  width: 100%;
-  text-align: center;
-}
 
+.hut{
+  width: 150px;
+  border-radius: 50%;
+}
 h1{
-  font-family: 'Circular';
-  font-size: 45px;
-  font-weight: normal;
+  font: normal 45px 'Lato';
   color: #FF2D00;
   vertical-align: middle;
 }
-h2{
-  font-family: 'Circular';
-  font-size: 20px;
-  font-weight: lighter;
-  transform: translateY(-35%);
+.email{
+  font: lighter 20px 'Lato';
+  text-decoration: none;
   color: #FF8C00;
   vertical-align: middle;
 }
-h3{
-  font-size: 80px;
-  margin: 0px;
-  transform: translateY(-10%);
-  vertical-align: middle;
+.email:hover{
+  text-decoration: underline;
+}
+/*TODO fix padding*/
+.links{
+  padding: 2.5%;
+  width: 100%;
+  text-align: center;
 }
 
 img{
@@ -53,9 +49,7 @@ img{
   width: 30px;
   height: auto;
 }
-.hut{
-  width: 250px;
-}
+
 
 *{
   -webkit-box-sizing: border-box;
