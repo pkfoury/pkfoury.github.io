@@ -4,7 +4,7 @@ html{
 
 /*background*/
 body{
-  /*background-image: linear-gradient(to bottom, #2e0927, #750035);*/
+  background-image: linear-gradient(to top, #D054E8, #6A82FB);
   background-repeat: no-repeat;
   margin: 0;
 }
@@ -19,19 +19,19 @@ body{
 }
 
 .hut{
-  width: 150px;
+  width: 135px;
   border-radius: 50%;
 }
 h1{
   margin: 1.5%;
   font: normal 45px 'Lato';
-  color: #FF2D00;
+  color: #FFFFFF;
   vertical-align: middle;
 }
 .email{
   font: lighter 20px 'Lato';
   text-decoration: none;
-  color: #FF8C00;
+  color: #FFFFFF;
   vertical-align: middle;
   border: 0px;
 }
