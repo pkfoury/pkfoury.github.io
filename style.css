@@ -11,7 +11,6 @@ body{
 
 /*big box*/
 .content{
-  margin: 0;
   position: absolute;
   top: 50%;
   width: 100%;
@@ -24,6 +23,7 @@ body{
   border-radius: 50%;
 }
 h1{
+  margin: 1.5%;
   font: normal 45px 'Lato';
   color: #FF2D00;
   vertical-align: middle;
@@ -33,13 +33,14 @@ h1{
   text-decoration: none;
   color: #FF8C00;
   vertical-align: middle;
+  border: 0px;
 }
 .email:hover{
   text-decoration: underline;
 }
 /*TODO fix padding*/
 .links{
-  padding: 2.5%;
+  padding: 2%;
   width: 100%;
   text-align: center;
 }
