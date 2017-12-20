@@ -1,47 +1,52 @@
 html{
   height: 100%;
 }
-
-/*background*/
 body{
-  /*background-image: linear-gradient(to top, #D054E8, #6A82FB);*/
-  background-repeat: no-repeat;
+  background-color: #AAE5FA; /*https://adobe.ly/2kmp3y7*/
   margin: 0;
+  font-family: 'Lato', sans-serif; 
 }
 
-/*big box*/
-.content{
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  transform: translateY(-50%);
+.wrapper{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: left;
+  padding-left: 10%;
+  height: 100vh;
 }
-
-.hut{
+.me{
   width: 135px;
   border-radius: 50%;
+  margin: 1.5vh;
+  transition: width 2s;
 }
 h1{
   margin: 1.5%;
-  font: normal 45px 'Lato';
-  color: #4c4c4c;
-  vertical-align: middle;
+  font-size: 40px;
+  font-weight: normal;
+  /*color: #4c4c4c;*/
+  margin: 1.5vh;
+}
+p{
+  /*color: #4c4c4c;*/
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 1.5vh;
 }
 .email{
-  font: lighter 20px 'Lato';
+  /*color: #4c4c4c;*/
+  color: black; 
+  font-size: 18px;
+  font-weight: lighter;
   text-decoration: none;
-  color: #4c4c4c;
-  vertical-align: middle;
-  border: 0px;
+  margin: 1.5vh;
 }
 .email:hover{
   text-decoration: underline;
 }
-/*TODO fix padding*/
 .links{
-  padding: 2%;
-  width: 100%;
+  margin-top: 1.5vh;
   text-align: center;
 }
 
@@ -50,7 +55,6 @@ img{
   width: 30px;
   height: auto;
 }
-
 
 *{
   -webkit-box-sizing: border-box;
