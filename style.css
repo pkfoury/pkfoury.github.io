@@ -22,8 +22,7 @@ body{
   transition: width 2s;
 }
 h1{
-  margin: 1.5%;
-  font-size: 40px;
+  font-size: 34px;
   font-weight: normal;
   /*color: #4c4c4c;*/
   margin: 1.5vh;
@@ -40,7 +39,7 @@ p{
   font-size: 18px;
   font-weight: lighter;
   text-decoration: none;
-  margin: 1.5vh;
+  margin-left: 1.5vh;
 }
 .email:hover{
   text-decoration: underline;
