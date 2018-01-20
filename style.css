@@ -1,10 +1,8 @@
-html{
-  height: 100%;
-}
-body{
+html, body{
   background-color: #AAE5FA; /*https://adobe.ly/2kmp3y7*/
   margin: 0;
   font-family: 'Lato', sans-serif; 
+  height: 100%;
 }
 
 .wrapper{
@@ -12,26 +10,20 @@ body{
   justify-content: center;
   flex-direction: column;
   align-items: left;
+  height: 100%;
   padding-left: 10%;
-  height: 100vh;
 }
 .me{
   width: 135px;
   border-radius: 50%;
-  margin: 1.5vh;
-  transition: width 2s;
+  margin-left: 0px;
 }
-h1{
+.name{
+  /*color: #4c4c4c;*/
   font-size: 34px;
   font-weight: normal;
-  /*color: #4c4c4c;*/
   margin: 1.5vh;
-}
-p{
-  /*color: #4c4c4c;*/
-  font-size: 18px;
-  font-weight: lighter;
-  margin: 1.5vh;
+  margin-left: -2px;
 }
 .email{
   /*color: #4c4c4c;*/
@@ -39,25 +31,23 @@ p{
   font-size: 18px;
   font-weight: lighter;
   text-decoration: none;
-  margin-left: 1.5vh;
+  margin-left: 0px;
+  
 }
 .email:hover{
   text-decoration: underline;
 }
-.links{
+.linkWrap{
   margin-top: 1.5vh;
+  margin-left: -1.15vh;
   text-align: center;
+}
+.spot{
+  margin-left: 1.65vh;
 }
 
 img{
   margin: 10px;
   width: 30px;
   height: auto;
-}
-
-*{
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
 }
