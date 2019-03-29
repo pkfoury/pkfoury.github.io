@@ -1,5 +1,4 @@
 html, body{
-  /*background-color: #AAE5FA;*/ /*https://adobe.ly/2kmp3y7*/
   margin: 0;
   font-family: 'Lato', sans-serif; 
   height: 100%;
@@ -7,47 +6,58 @@ html, body{
 
 .wrapper{
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  flex-direction: column;
-  align-items: left;
+  align-items: center;
   height: 100%;
-  padding-left: 10%;
+  padding: 20px;
 }
+
 .me{
-  width: 135px;
-  border-radius: 50%;
-  margin-left: 0px;
+  width: 200px;
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
 .name{
-  /*color: #4c4c4c;*/
   font-size: 34px;
   font-weight: normal;
   margin: 1.5vh;
-  margin-left: -2px;
 }
+
 .email{
-  /*color: #4c4c4c;*/
   color: black; 
   font-size: 18px;
   font-weight: lighter;
   text-decoration: none;
   margin-left: 0px;
-  
 }
+
 .email:hover{
   text-decoration: underline;
 }
+
 .linkWrap{
   margin-top: 1.5vh;
   margin-left: -1.15vh;
   text-align: left;
 }
-.spot{
-  margin-left: 1.65vh;
-}
 
-img{
+.linkimg {
+/* img { */
   margin: 10px;
   width: 30px;
   height: auto;
+}
+
+@media (max-width: 425px) {
+  .wrapper {
+    flex-direction: column;
+  }
 }
