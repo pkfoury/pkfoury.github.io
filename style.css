@@ -32,8 +32,8 @@ html, body{
 
 .linkWrap{
   margin-top: 1.5vh;
-  margin-left: -1.15vh;
-  text-align: left;
+  margin-left: 2.15vh;
+	text-align: center;
 }
 
 .link img {
